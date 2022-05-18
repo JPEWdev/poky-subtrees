@@ -1,0 +1,8 @@
+#! /bin/sh
+#
+# A convenience script to add all the proper upstream remotes into this
+# repository
+
+git remote add bitbake https://git.openembedded.org/bitbake
+git remote add meta-yocto git://git.yoctoproject.org/meta-yocto
+git remote add oe-core https://git.openembedded.org/openembedded-core
